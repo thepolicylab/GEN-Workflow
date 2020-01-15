@@ -1,24 +1,33 @@
 {
   "sidebar": [
     {
-      "section": "Introduction",
+      "section": "Project Structure",
       "topics": [
         {
-          "title": "Getting started",
-          "slug": "getting-started"
+          "title": "Starting a Project",
+          "slug": "starting-a-project"
         }
       ]
     },
     {
-      "section": "Setup",
+      "section": "Coding",
       "topics": [
         {
-          "title": "Theme configuration",
-          "slug": "theme-configuration"
+          "title": "Coding Style",
+          "slug": "coding-style"
+        }
+      ]
+    },
+    {
+      "section": "Modeling",
+      "topics": [
+        {
+          "title": "A Note on Notebooks",
+          "slug": "a-note-on-notebooks"
         },
         {
-          "title": "Forestry CMS",
-          "slug": "forestry-cms"
+          "title": "Modeling for Non-Python Platforms",
+          "slug": "modeling-for-non-python-platforms"
         }
       ]
     }

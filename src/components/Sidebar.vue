@@ -16,7 +16,6 @@
             </ul>
           </li>
         </ul>
-        <GitLink class="git" />
       </nav>
     </aside>
 </template>
@@ -49,13 +48,9 @@ query Menu {
 </static-query>
 
 <script>
-import GitLink from '~/components/GitLink.vue'
 import throttle from 'lodash/throttle'
 
 export default {
-  components: {
-    GitLink
-  },
   watch: {
     '$route' () {
       this.$store.commit('closeSidebar')
@@ -141,6 +136,7 @@ nav {
   min-height: 100%;
   border: 1px solid transparent;
   padding-bottom: 40px;
+  padding-top: 50px;
 }
 
 ul {

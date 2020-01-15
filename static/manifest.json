@@ -12,7 +12,7 @@
     }
   ],
   "lang": "en-US",
-  "start_url": "/",
+  "start_url": "/getting_started",
   "display": "standalone",
   "theme_color": "#10c186",
   "background_color": "#FFF"

@@ -16,8 +16,8 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
-  siteName: 'Jamdocs',
-  siteUrl: 'https://jamdocs.netlify.com',
+  siteName: 'TPL Data Science Workflow',
+  siteUrl: 'https://tpl-ds.netlify.com',
   templates: {
     Doc: '/:slug',
   },

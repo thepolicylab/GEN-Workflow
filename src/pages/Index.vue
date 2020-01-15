@@ -1,14 +1,16 @@
 <template>
-  <Layout :sidebar="false">
+  <Layout :sidebar="true">
     <div class="content">
-      <h1>{{ $static.metadata.siteName }} - {{ this.description }}</h1>
-      <nav>
-        <!-- To use other icons here, you need to import them in the Shortcut component -->
-        <Shortcut link="/getting-started" text="Introduction" icon="play-icon" />
-        <Shortcut link="/theme-configuration" text="Configuration" icon="sliders-icon" />
-        <Shortcut link="/theme-configuration#changing-colors" text="Change colors" icon="eye-icon" />
-      </nav>
-      <GitLink class="git" size="large" />
+      <h1>The Policy Lab Data Science Workflow</h1>
+      <p>
+        This site documents everything you need to know about the data science workflow at The Policy Lab. You will find information on how we work on data science projects from the beginning to finish.
+      </p>
+      <p>
+        The goal of this site is to establish conventions/rules regarding the way we at The Policy Lab manage, maintain, document, report, and publish our data science projects. This way we can maintain consistency between projects and make it easier for the data science team to collaborate both internally and externally.
+      </p>
+      <p>
+        Please click the specific items on the sidebar.
+      </p>
     </div>
   </Layout>
 </template>
@@ -22,17 +24,15 @@ query {
 </static-query>
 
 <script>
-import GitLink from '~/components/GitLink.vue'
 import Shortcut from '~/components/Shortcut.vue'
 
 export default {
   components: {
-    GitLink,
     Shortcut
   },
   data() {
     return {
-      description: 'The ultimate static generated documentation theme for the JAM-stack'
+      description: 'The Policy Lab Data Science Workflow'
     }
   },
   metaInfo() {
