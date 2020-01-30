@@ -1,3 +1,17 @@
+# Team Workflow for The Policy Lab
+
+This is where we are documenting our practices and aspirational practices. The current staged version can be seen here <https://thepolicylab-ds.netlify.com/>.
+
+We are working in Markdown. If you want to make a new page you should:
+ 1. Clone the repo
+ 2. Make a new branch (like `git checkout -b mynewbranch`)
+ 3. Make a new .md file in the docs/ directory (copy an existing one to see how they are formatted, etc.)
+ 4. Commit and push the changes you've made to the new branch
+ 5. Make a pull request on github
+ 
+
+# Details about the development of this here document
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/de44d168-eb1d-47a5-8731-d77bb40af7c8/deploy-status)](https://app.netlify.com/sites/jamdocs/deploys)
 
 # ![Jamdocs](https://github.com/samuelhorn/jamdocs/blob/master/src/assets/img/logo-dark.svg)
